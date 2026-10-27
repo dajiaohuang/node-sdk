@@ -20,7 +20,15 @@ export default [{
                 {find: '@node-sdk', replacement: path.resolve(__dirname)}
             ]
         }),
-        typescript({tsconfig: false, compilerOptions: { target: 'es6', moduleResolution: 'node', resolveJsonModule: true, allowSyntheticDefaultImports: true }}),
+        typescript({
+            tsconfig: false,
+            compilerOptions: {
+                target: 'es6',
+                moduleResolution: 'node',
+                resolveJsonModule: true,
+                allowSyntheticDefaultImports: true
+            }
+        }),
         license({
             banner: {
                 content: {
@@ -43,7 +51,15 @@ export default [{
                 {find: '@node-sdk', replacement: path.resolve(__dirname)}
             ]
         }),
-        typescript({tsconfig: false, compilerOptions: { target: 'es6', moduleResolution: 'node', resolveJsonModule: true, allowSyntheticDefaultImports: true }}),
+        typescript({
+            tsconfig: false,
+            compilerOptions: {
+                target: 'es6',
+                moduleResolution: 'node',
+                resolveJsonModule: true,
+                allowSyntheticDefaultImports: true
+            }
+        }),
         license({
             banner: {
                 content: {
